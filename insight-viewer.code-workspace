@@ -1,0 +1,26 @@
+{
+  "folders": [
+    {
+      "name": "viewer",
+      "path": "libs/insight-viewer"
+    },
+    {
+      "name": "dev",
+      "path": "apps/insight-viewer-dev"
+    },
+    {
+      "name": "e2e",
+      "path": "apps/insight-viewer-dev-e2e"
+    },
+    {
+      "name": "root",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "typescript.tsdk": "root/node_modules/typescript/lib"
+  },
+  "extensions": {
+    "recommendations": ["esbenp.prettier-vscode", "firsttris.vscode-jest-runner", "dbaeumer.vscode-eslint"]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "strict": true,
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@insight-viewer-library/fixtures": ["libs/fixtures/src/index.ts"],
+      "@lunit/insight-viewer": ["libs/insight-viewer/src/index.ts"],
+      "@lunit/insight-viewer/annotation": ["libs/annotation/src/index.ts"],
+      "@lunit/insight-viewer/viewport": ["libs/viewport/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
